@@ -1,0 +1,64 @@
+.header {
+    position: absolute;
+    left: 17%;
+    top: 2rem;
+    width: 1230px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    z-index: 10;
+}
+
+.logo {
+    width: 130px;
+    height: 22px;
+}
+.header-menu {
+    display: flex;
+    gap: 4rem;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 25.6px;
+    color: var(--text-color);
+}
+
+.header-link:hover {
+    color: #FF5A30;    
+}
+.header-contacts {
+    display: flex;
+    gap: 3.6rem;
+}
+.header-contacts-left {
+    display: flex;
+    gap: 2.03rem;
+}
+
+.header-contacts-text-top {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.header-contacts-text-top:hover {
+    color: #FF5A30;
+}
+.header-contacts-text-contact {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+
+.header-contacts-text-contact:hover {
+    color: #FF5A30;
+}
+.header-contacts-right {
+    display: flex;
+    gap: 1.2rem;
+}

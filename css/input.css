@@ -1,0 +1,75 @@
+.input {
+    position: relative;
+    width: 1920px;
+    height: 826px;
+    background-image: url("../images/input/input-image.png");
+}
+
+.input-form {
+    margin-top: 8rem;
+    margin-left: 108rem;
+    position: absolute;
+    width: 495px;
+    height: 666px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 4.8rem 4rem;
+    border-radius: 5px;
+}
+.input-form-name {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+.input-form-lable {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: #424551;
+    margin-bottom: 0.8rem;
+}
+.input-form-input {
+    width: 415px;
+    height: 44px;
+    padding-top: 1.1rem;
+    padding-left: 1.6rem;
+    padding-bottom: 1.2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: #9A9CA5;
+    border: 0.1rem solid #D7DADD;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.input-checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.4rem;
+    align-items: start;
+}
+.input-form-input-checkbox {
+    background-color: #FF5A30;
+    font-weight: bold;
+    margin-right: 1.2rem;
+}
+.input-form-lable-checkbox {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 21px;
+    width: 350px;
+}
+.g-btn {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.input-message {
+    width: 415px;
+    height: 66px;    
+}

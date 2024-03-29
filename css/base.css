@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu";
 }
 
 html {
@@ -40,11 +41,11 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1200px; /* it depends on you project */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  /* max-width: 1200px; it depends on you project */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
 }
 
 main {
