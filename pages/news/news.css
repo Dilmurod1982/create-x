@@ -76,6 +76,14 @@
     height: 46px;
 }
 
+.categ-list:hover {
+    border: 1px solid #FF5A30;
+    border-radius: 5px;
+}
+.categ-list:hover .categ-link {
+    color: #FF5A30;
+}
+
 .categ-btn {
     
 
