@@ -1,0 +1,259 @@
+.top-zone {
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    background-image: url("./images/image-cover.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--bg-color);
+    padding: 15.2rem 97.5rem 17.9rem 34.5rem ;
+}
+
+.top-zone-link {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 4rem;
+}
+.top-zone-link-text1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: #424551;
+}
+.top-zone-link-text2 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: #9A9CA5;
+}
+.top-zone-name {
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 93.6px;
+    letter-spacing: 1px;
+    color: #1E212C;
+    margin-bottom: 2.4rem;
+}
+.top-zone-text {
+    width: 600px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;    
+    color: #787A80;
+    
+}
+
+.main {
+    width: 1230px;
+    height: 757px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.1rem;
+}
+.main-h1 {
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 1.3;
+    text-align: center;
+    color: #1E212C;
+}
+.main-text {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #787A80;
+    margin-bottom: 6rem;
+}
+
+.main-img {
+    margin-right: 13.5rem;
+}
+.main-content {
+    display: flex;
+}
+.main-form {
+    display: grid;
+    grid-template-columns: 285px 285px;
+    column-gap: 30px;
+    grid-template-rows: repeat(6, 1fr);
+}
+.input-form {
+    display: block;
+    
+}
+
+.message-lable {
+    grid-column: 1/3;
+    grid-row: 4/6;    
+}
+
+.message-input {
+    width: 600px;
+    height: 128px;
+    outline: none;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #D7DADD;
+    background-color: #F4F5F6;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #9A9CA5;
+    padding-left: 1.6rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+.contact-input {
+    width: 285px;
+    height: 52px;
+    outline: none;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #D7DADD;
+    background-color: #F4F5F6;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #9A9CA5;
+    padding-left: 1.6rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.contact-lable {
+    height: 86px;
+    /* margin-bottom: 0.8rem; */
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #424551;
+    
+}
+
+.c-btn {
+    width: 210px;
+    height: 52px;
+ 
+ 
+ border: 1px solid var(--btn-color);
+ background-color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: var(--btn-color);
+ font-weight: 700;
+ font-size: 1.4rem;
+ line-height: 44px;
+ letter-spacing: 0.5px;
+ border-radius: 0.5rem;
+}
+
+.c-btn:hover {
+
+    background-color: var(--btn-color); 
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   }
+
+.office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 345px 95px 345px;
+    width: 1920px;
+    height: 877px;
+    background-color: #F4F5F6;
+}
+.office-h1 {
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 1.3;
+    text-align: center;
+    color: #1E212C;
+}
+.office-text {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #787A80;
+    margin-bottom: 6rem;
+}
+.office-adress {
+    position: relative;
+    display: flex;
+    gap: 240px;
+    margin-bottom: 12rem;
+}
+.office-adress-item {
+    width: 250px;
+}
+.office-adress-name {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.5;    
+    color: #1E212C;
+    margin-bottom: 2.4rem;
+}
+.adress {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;    
+    color: #1E212C;
+    margin-bottom: 0.4rem;
+}
+.map {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;    
+    color: #FF5A30;
+    margin-bottom: 2rem;
+}
+.office-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.office-name-item {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;    
+    color: #787A80;
+    margin-bottom: 2rem;
+}
+.office-name-link {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;    
+    color: #1E212C;
+    margin-bottom: 2rem;
+}
+
+.office-name-link:hover {
+    color: #FF5A30  ;
+}
+.find {
+}
+.find-name {
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 1.3;    
+    color: #1E212C;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.find-items {
+    display: flex;
+    gap: 2.67rem;
+}
+.find-link:hover svg path{
+     
+        fill:#FF5A30
+    
+}
+
+
